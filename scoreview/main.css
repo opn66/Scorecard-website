@@ -1,0 +1,35 @@
+.header{
+  
+position: relative;
+    top:0; left: 0; right: 0;
+    box-shadow: 0 .5rem 1.5rem rgba(0, 0, 0, .1);
+    display: flex;
+    align-items: center;
+    background: #fff;
+}
+
+.header .logo{  
+    font-size: 2.5rem;
+    color: var(--black);
+}
+
+.header .logo i{
+    color: var(--green);
+}
+
+.header .navbar a{
+    font-size: 1.7rem;
+    color: var(--light-color);
+    margin-left: 2rem;
+}
+
+.header .navbar a:hover{
+    color: var(--green);
+}
+
+body{
+    background-color: bisque;
+}
+.headall{
+    text-align: center;
+}
